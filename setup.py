@@ -51,7 +51,7 @@ setup(
     install_requires=[
         "https-everywhere",
         "requests[security]",
-        "brotlipy",  # urllib3 optional dep
+        "brotlicffi",  # urllib3 optional dep
         "CacheControl",
         "cachetools",
         "lockfile",
